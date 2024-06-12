@@ -46,22 +46,22 @@ table {
 }
 
 th, td {
-  border: 1px solid #675720;
+  border: 1px solid #a218a4f4;
   padding: 8px;
   text-align: left;
 }
 
 th {
-  background-color: #a08645;
+  background-color: #d91fe6;
   color: white;
 }
 
 tr:nth-child(even) {
-  background-color: #faf3e0;
+  background-color: #9a0995;
 }
 
 a {
-  color: #007bff;
+  color: #040404cb;
   text-decoration: none;
 }
 

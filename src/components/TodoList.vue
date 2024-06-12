@@ -94,9 +94,23 @@ export default defineComponent({
 
 <style scoped>
 .todo-list-container {
+  background-image: url('https://th.bing.com/th/id/OIP.sN5JVaYoLuFnN6_mcfz84AHaNK?w=187&h=333&c=7&r=0&o=5&dpr=1.3&pid=1.7');
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh; 
+}
+
+.todo-list-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); 
+  border-radius: 10px;
+  margin-top: 20px;
 }
 
 .todo-form-container {
@@ -105,7 +119,7 @@ export default defineComponent({
 }
 
 .todo-form {
-  background-color: #f6dda4;
+  background-color: #eda4f6;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -132,11 +146,11 @@ export default defineComponent({
 }
 
 .form-input:focus {
-  border-color: #675720;
+  border-color: #672060f8;
 }
 
 .form-button {
-  background-color: #675720;
+  background-color: #672066;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -147,7 +161,7 @@ export default defineComponent({
 }
 
 .form-button:hover {
-  background-color: #dfab43;
+  background-color: #d243df;
 }
 
 .activity-list-container {
@@ -191,7 +205,7 @@ export default defineComponent({
 }
 
 .activity-cancel-button {
-  background-color: #dc3545;
+  background-color: #bd35dcdf;
   color: #fff;
   padding: 6px 12px;
   border: none;
